@@ -1,0 +1,111 @@
+#box { 
+	width: 562px;
+	height: 26px;
+	margin: 40px auto;
+	font: 12px/1.5 microsoft YaHei;
+	position: relative;
+}
+
+#box .slider {
+	width: 40px;
+	height: 28px;
+	position: absolute;
+	overflow: hidden;
+	top: -1px;
+}
+
+#box .range, #box .light {
+	position: absolute;
+	width: 562px;
+	height: 26px;
+	padding-left: 7px;
+	background: #f9f9f9;
+	border-radius: 4px;
+}
+
+#box .light {
+	height: 26px;
+	background: #feeedd;
+	border: solid 1px #fec383;
+}
+
+#box .range li, #box .light li {
+	width: 37px;
+	float: left;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	color: #888888;
+	border-right: solid 1px #DDD;
+}
+
+#box .range .last, #box .light .last {
+	border-right: 0;
+}
+
+#box .light li {
+	position: relative;
+	border-right: solid 1px #fec383;
+	color: orange;
+}
+
+#box .light s, #box .light b {
+	position: absolute;
+	text-decoration: none;
+}
+
+#box .light s {
+	left: 14px;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	-ms-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+#box .light s.fix {
+	left: 5px;
+	top: 0;
+	color: #000;
+}
+
+#box .light b {
+	width: 13px;
+	height: 7px;
+	display: block;
+}
+
+#box .light b.fix {
+	left: 12px;
+	top: 8px;
+	background: url(../images/font-month.jpg);
+	background-repeat: no-repeat;
+}
+
+#box .bar {
+	position: absolute;
+	width: 10px;
+	height: 19px;
+	padding: 9px 0 0 3px;
+	overflow: hidden;
+	border: solid 1px #fff;
+	outline: none;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+	background: #fff;
+	top: -2px;
+	left: 40px;
+}
+
+#box .bar i {
+	float: left;
+	display: inline;
+	margin: 0 0 0 1px;
+	width: 1px;
+	height: 10px;
+	overflow: hidden;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), color-stop(0.5, #ababab), to(#f2f2f2));
+    background: -webkit-linear-gradient(#f2f2f2, #ababab, #f2f2f2);
+    background: -moz-linear-gradient(#f2f2f2, #ababab, #f2f2f2);
+    background: -o-linear-gradient(#f2f2f2, #ababab, #f2f2f2);
+    background: linear-gradient(#f2f2f2, #ababab, #f2f2f2);
+}
