@@ -1,4 +1,4 @@
-Demo: https://jianyangzhang.github.io/Template-dragslider/
+Demo: https://jianyangzhang.github.io/widget-dragslider/
 
 ![ds1](https://cloud.githubusercontent.com/assets/22739177/21414400/f8e8ac7c-c7b3-11e6-8b30-227e55bcf011.PNG)
 ![ds2](https://cloud.githubusercontent.com/assets/22739177/21414401/f8ea6026-c7b3-11e6-917b-6a439cab3919.PNG)
